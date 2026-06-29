@@ -1,6 +1,6 @@
 # Advanced Gamification System
 
-A comprehensive gamification engine built for StarkEd Education to increase student motivation and engagement through points, badges, leaderboards, streaks, and achievement unlocks.
+A comprehensive gamification engine built for Eduban Education to increase student motivation and engagement through points, badges, leaderboards, streaks, and achievement unlocks.
 
 ## 🎯 Features
 
@@ -321,7 +321,7 @@ npm run analyze
 ```bash
 # Production
 NODE_ENV=production
-NEXT_PUBLIC_SOCKET_URL=https://api.starked.com
+NEXT_PUBLIC_SOCKET_URL=https://api.eduban.com
 
 # Development
 NODE_ENV=development
@@ -358,9 +358,9 @@ For questions, issues, or contributions:
 
 1. Check the [Issues](../../issues) page
 2. Review the [Documentation](../../docs)
-3. Join our [Discord Community](https://discord.gg/starked)
-4. Contact the development team at dev@starked.com
+3. Join our [Discord Community](https://discord.gg/eduban)
+4. Contact the development team at dev@eduban.com
 
 ---
 
-**Built with ❤️ for the StarkEd Education community**
+**Built with ❤️ for the Eduban Education community**

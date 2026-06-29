@@ -1,5 +1,5 @@
 // Interactive Learning Components - Main Export File
-// StarkEd Education Platform
+// Eduban Education Platform
 
 // Core Interactive Components
 export { default as VirtualLabSimulation } from './VirtualLabSimulation';

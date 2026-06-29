@@ -4,7 +4,7 @@ import { AchievementDisplay } from '../components/AchievementDisplay'
 import { CredentialList } from '../components/CredentialList'
 import { ProfileStats } from '../components/ProfileStats'
 import { ErrorBoundary } from '../components/ErrorBoundary'
-import { testProfile, testAchievements, testCredentials, testStats } from '../test-profile'
+import { testProfile, testAchievements, testCredentials, testStats } from './fixtures/profile'
 
 // Mock the useProfile hook
 jest.mock('../hooks/useProfile', () => ({

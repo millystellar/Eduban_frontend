@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "StarkEd Educación",
+    "name": "Eduban Educación",
     "tagline": "Plataforma de Aprendizaje Descentralizada",
     "description": "Aprende desarrollo de blockchain con cursos impulsados por Stellar"
   },
@@ -209,7 +209,7 @@
     "different": "Debe ser diferente de {{field}}"
   },
   "messages": {
-    "welcome": "Bienvenido a StarkEd Educación",
+    "welcome": "Bienvenido a Eduban Educación",
     "goodMorning": "Buenos días",
     "goodAfternoon": "Buenas tardes",
     "goodEvening": "Buenas noches",
@@ -233,21 +233,21 @@
   },
   "pwa": {
     "install": {
-      "title": "Instalar StarkEd",
+      "title": "Instalar Eduban",
       "description": "¡Instala nuestra app para una mejor experiencia! Obtén acceso sin conexión, carga más rápida y notificaciones push.",
       "button": "Instalar App",
       "notNow": "Ahora No",
       "dismiss": "Descartar",
       "platforms": "Disponible para escritorio y móvil",
-      "iosInstructions": "Para instalar StarkEd en tu dispositivo iOS:\n\n1. Toca el botón Compartir en la parte inferior de Safari\n2. Desplázate hacia abajo y toca \"Añadir a la pantalla de inicio\"\n3. Toca \"Añadir\" para confirmar la instalación\n\n¡Esto añadirá StarkEd a tu pantalla de inicio para un acceso fácil!",
+      "iosInstructions": "Para instalar Eduban en tu dispositivo iOS:\n\n1. Toca el botón Compartir en la parte inferior de Safari\n2. Desplázate hacia abajo y toca \"Añadir a la pantalla de inicio\"\n3. Toca \"Añadir\" para confirmar la instalación\n\n¡Esto añadirá Eduban a tu pantalla de inicio para un acceso fácil!",
       "iosButton": "Aprende Cómo Instalar"
     },
     "banner": {
-      "message": "Instala StarkEd para acceso sin conexión y notificaciones",
+      "message": "Instala Eduban para acceso sin conexión y notificaciones",
       "dismiss": "Descartar"
     },
     "update": {
-      "available": "Una nueva versión de StarkEd está disponible.",
+      "available": "Una nueva versión de Eduban está disponible.",
       "reload": "Recargar"
     },
     "offline": {
@@ -293,30 +293,30 @@
     "resetZoom": "Restablecer zoom"
   },
   "seo": {
-    "title": "StarkEd Educación - {{pageTitle}}",
+    "title": "Eduban Educación - {{pageTitle}}",
     "description": "{{pageDescription}} - Aprende desarrollo de blockchain con cursos impulsados por Stellar",
     "keywords": "blockchain, educación, stellar, criptomoneda, web3, descentralizado, aprendizaje, cursos, certificados",
-    "author": "Equipo de StarkEd Educación",
+    "author": "Equipo de Eduban Educación",
     "robots": "index, follow",
-    "canonical": "https://starked-education.com{{path}}",
-    "ogTitle": "StarkEd Educación",
+    "canonical": "https://eduban.com{{path}}",
+    "ogTitle": "Eduban Educación",
     "ogDescription": "Plataforma de aprendizaje descentralizada impulsada por blockchain Stellar",
-    "ogImage": "https://starked-education.com/images/og-image.jpg",
-    "ogUrl": "https://starked-education.com{{path}}",
+    "ogImage": "https://eduban.com/images/og-image.jpg",
+    "ogUrl": "https://eduban.com{{path}}",
     "ogType": "website",
-    "ogSiteName": "StarkEd Educación",
+    "ogSiteName": "Eduban Educación",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "StarkEd Educación",
+    "twitterTitle": "Eduban Educación",
     "twitterDescription": "Plataforma de aprendizaje descentralizada impulsada por blockchain Stellar",
-    "twitterImage": "https://starked-education.com/images/twitter-image.jpg",
-    "twitterSite": "@starked_education"
+    "twitterImage": "https://eduban.com/images/twitter-image.jpg",
+    "twitterSite": "@eduban"
   },
   "meta": {
     "version": "Versión {{version}}",
     "build": "Construcción {{build}}",
     "environment": "Entorno {{environment}}",
     "lastUpdated": "Última actualización: {{date}}",
-    "copyright": "© {{year}} StarkEd Educación. Todos los derechos reservados.",
+    "copyright": "© {{year}} Eduban Educación. Todos los derechos reservados.",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio",
     "cookiePolicy": "Política de Cookies",

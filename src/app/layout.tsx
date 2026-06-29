@@ -9,7 +9,7 @@ import { CommandPalette } from '@/components/ui/command-palette';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'StarkEd Education - Decentralized Learning Platform',
+  title: 'Eduban Education - Decentralized Learning Platform',
   description: 'Learn blockchain development with courses powered by Stellar',
 };
 
@@ -39,14 +39,14 @@ export default function RootLayout({
          *   attribute="class"      → Tailwind darkMode: 'class' strategy
          *   defaultTheme="system"  → first visit follows OS preference
          *   enableSystem           → listens for prefers-color-scheme changes
-         *   storageKey             → persists choice under 'starked-theme'
+         *   storageKey             → persists choice under 'eduban-theme'
          *   disableTransitionOnChange={false} → our CSS handles transitions
          */}
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
-          storageKey="starked-theme"
+          storageKey="eduban-theme"
           disableTransitionOnChange={false}
         >
           <GlobalShell />

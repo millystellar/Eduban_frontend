@@ -38,7 +38,7 @@ export default function NotificationSettingsPage() {
           Notification Settings
         </h1>
         <p className="text-gray-600 mt-2">
-          Manage how and when you receive notifications from StarkEd.
+          Manage how and when you receive notifications from Eduban.
         </p>
       </div>
 

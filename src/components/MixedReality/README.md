@@ -678,4 +678,4 @@ MIT License - see LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
-Built with ❤️ for the StarkEd Education community to create immersive mixed reality learning experiences that transform education through holographic technology and spatial computing.
+Built with ❤️ for the Eduban Education community to create immersive mixed reality learning experiences that transform education through holographic technology and spatial computing.

@@ -8,10 +8,10 @@ export const SecurityWarning: React.FC = () => {
         <AlertTriangle size={20} />
       </div>
       <div className="flex-1">
-        <h4 className="text-amber-900 font-bold text-sm mb-1">Stay Safe on StarkEd</h4>
+        <h4 className="text-amber-900 font-bold text-sm mb-1">Stay Safe on Eduban</h4>
         <p className="text-amber-800 text-xs leading-relaxed">
-          StarkEd will never ask for your secret key or recovery phrase. 
-          Always ensure you are on the official <span className="font-bold">starked.edu</span> domain 
+          Eduban will never ask for your secret key or recovery phrase. 
+          Always ensure you are on the official <span className="font-bold">eduban.edu</span> domain 
           before signing any transaction.
         </p>
         <div className="mt-2 flex gap-3">

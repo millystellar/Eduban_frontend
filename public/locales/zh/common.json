@@ -261,18 +261,18 @@
     "keywords": "区块链，教育，恒星，加密货币，web3，去中心化，学习，课程，证书",
     "author": "斯塔克教育团队",
     "robots": "index, follow",
-    "canonical": "https://starked-education.com{{path}}",
+    "canonical": "https://eduban.com{{path}}",
     "ogTitle": "斯塔克教育",
     "ogDescription": "由恒星区块链驱动的去中心化学习平台",
-    "ogImage": "https://starked-education.com/images/og-image.jpg",
-    "ogUrl": "https://starked-education.com{{path}}",
+    "ogImage": "https://eduban.com/images/og-image.jpg",
+    "ogUrl": "https://eduban.com{{path}}",
     "ogType": "website",
     "ogSiteName": "斯塔克教育",
     "twitterCard": "summary_large_image",
     "twitterTitle": "斯塔克教育",
     "twitterDescription": "由恒星区块链驱动的去中心化学习平台",
-    "twitterImage": "https://starked-education.com/images/twitter-image.jpg",
-    "twitterSite": "@starked_education"
+    "twitterImage": "https://eduban.com/images/twitter-image.jpg",
+    "twitterSite": "@eduban"
   },
   "meta": {
     "version": "版本 {{version}}",

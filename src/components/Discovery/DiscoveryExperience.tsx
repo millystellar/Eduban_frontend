@@ -79,9 +79,9 @@ export const DiscoveryExperience: React.FC = () => {
 
   useEffect(() => {
     const storedSessionId =
-      window.sessionStorage.getItem('starked-discovery-session') ||
+      window.sessionStorage.getItem('eduban-discovery-session') ||
       createSessionId();
-    window.sessionStorage.setItem('starked-discovery-session', storedSessionId);
+    window.sessionStorage.setItem('eduban-discovery-session', storedSessionId);
     setSessionId(storedSessionId);
   }, []);
 

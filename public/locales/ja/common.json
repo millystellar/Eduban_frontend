@@ -261,18 +261,18 @@
     "keywords": "ブロックチェーン、教育、ステラー、暗号通貨、web3、分散型、学習、コース、証明書",
     "author": "スターク教育チーム",
     "robots": "index, follow",
-    "canonical": "https://starked-education.com{{path}}",
+    "canonical": "https://eduban.com{{path}}",
     "ogTitle": "スターク教育",
     "ogDescription": "ステラーブロックチェーンで駆動された分散型学習プラットフォーム",
-    "ogImage": "https://starked-education.com/images/og-image.jpg",
-    "ogUrl": "https://starked-education.com{{path}}",
+    "ogImage": "https://eduban.com/images/og-image.jpg",
+    "ogUrl": "https://eduban.com{{path}}",
     "ogType": "website",
     "ogSiteName": "スターク教育",
     "twitterCard": "summary_large_image",
     "twitterTitle": "スターク教育",
     "twitterDescription": "ステラーブロックチェーンで駆動された分散型学習プラットフォーム",
-    "twitterImage": "https://starked-education.com/images/twitter-image.jpg",
-    "twitterSite": "@starked_education"
+    "twitterImage": "https://eduban.com/images/twitter-image.jpg",
+    "twitterSite": "@eduban"
   },
   "meta": {
     "version": "バージョン {{version}}",

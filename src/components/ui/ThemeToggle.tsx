@@ -22,7 +22,7 @@ const THEME_META: Record<
  *
  * A three-mode toggle button (Light → Dark → System → Light) that:
  *  - Shows Sun / Moon / Monitor icons matching the active mode.
- *  - Persists choice to localStorage under `starked-theme`.
+ *  - Persists choice to localStorage under `eduban-theme`.
  *  - Respects `prefers-reduced-motion` — disables icon animation when set.
  *  - Announces the new mode to screen readers via a polite live region.
  *  - Is hydration-safe: renders a skeleton until the client mounts.

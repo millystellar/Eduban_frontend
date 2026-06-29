@@ -6,7 +6,7 @@ const ConsciousnessPage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Consciousness Upload - StarkEd Education</title>
+        <title>Consciousness Upload - Eduban Education</title>
         <meta name="description" content="Upload and preserve your consciousness on the blockchain for digital immortality" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

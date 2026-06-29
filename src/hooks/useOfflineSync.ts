@@ -34,7 +34,7 @@ export const useOfflineSync = (options: OfflineSyncOptions = {}) => {
     autoSync = true,
     syncInterval = 30000, // 30 seconds
     maxRetries = 3,
-    storageKey = 'starked-offline-sync-queue'
+    storageKey = 'eduban-offline-sync-queue'
   } = options;
 
   const [syncStatus, setSyncStatus] = useState<SyncStatus>({
@@ -146,7 +146,7 @@ export const useOfflineSync = (options: OfflineSyncOptions = {}) => {
   // Open IndexedDB
   const openIndexedDB = (): Promise<IDBDatabase> => {
     return new Promise((resolve, reject) => {
-      const request = indexedDB.open('StarkEdOfflineSync', 1);
+      const request = indexedDB.open('EdubanOfflineSync', 1);
 
       request.onerror = () => reject(request.error);
       request.onsuccess = () => resolve(request.result);
@@ -524,7 +524,7 @@ export const useOfflineData = <T>(key: string, initialValue?: T) => {
 // ---------------------------------------------------------------------------
 const openDataDB = (): Promise<IDBDatabase> => {
   return new Promise((resolve, reject) => {
-    const request = indexedDB.open('StarkEdOfflineData', 1);
+    const request = indexedDB.open('EdubanOfflineData', 1);
 
     request.onerror = () => reject(request.error);
     request.onsuccess = () => resolve(request.result);

@@ -298,7 +298,7 @@ const VirtualClassroom: React.FC<VirtualClassroomProps> = ({ session }) => {
                   />
                   <ActionButton
                     label={classroom.streaming.isLive ? 'Stop Live Stream' : 'Start Live Stream'}
-                    onClick={() => updateSessionState({ isLive: !classroom.streaming.isLive, streamUrl: 'https://stream.starked.example/live/classroom' })}
+                    onClick={() => updateSessionState({ isLive: !classroom.streaming.isLive, streamUrl: 'https://stream.eduban.example/live/classroom' })}
                   />
                   <ActionButton
                     label={media.isRecordingLocally ? 'Stop Recording' : 'Start Recording'}

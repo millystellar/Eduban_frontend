@@ -22,7 +22,7 @@ function notify() {
   listeners.forEach((fn) => fn())
 }
 
-const STORAGE_KEY = 'starked-shortcuts'
+const STORAGE_KEY = 'eduban-shortcuts'
 
 function loadOverrides(): Record<string, string> {
   try {
@@ -70,14 +70,14 @@ export function getCategoryShortcuts(): { category: string; items: Shortcut[] }[
 
 export function getEnabledKeys(): boolean {
   try {
-    return localStorage.getItem('starked-shortcuts-enabled') !== 'false'
+    return localStorage.getItem('eduban-shortcuts-enabled') !== 'false'
   } catch {
     return true
   }
 }
 
 export function setEnabledKeys(enabled: boolean) {
-  localStorage.setItem('starked-shortcuts-enabled', String(enabled))
+  localStorage.setItem('eduban-shortcuts-enabled', String(enabled))
   notify()
 }
 

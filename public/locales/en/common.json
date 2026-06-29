@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "StarkEd Education",
+    "name": "Eduban Education",
     "tagline": "Decentralized Learning Platform",
     "description": "Learn blockchain development with courses powered by Stellar"
   },
@@ -209,7 +209,7 @@
     "different": "Must be different from {{field}}"
   },
   "messages": {
-    "welcome": "Welcome to StarkEd Education",
+    "welcome": "Welcome to Eduban Education",
     "goodMorning": "Good morning",
     "goodAfternoon": "Good afternoon",
     "goodEvening": "Good evening",
@@ -233,21 +233,21 @@
   },
   "pwa": {
     "install": {
-      "title": "Install StarkEd",
+      "title": "Install Eduban",
       "description": "Install our app for the best experience! Get offline access, faster loading, and push notifications.",
       "button": "Install App",
       "notNow": "Not Now",
       "dismiss": "Dismiss",
       "platforms": "Available for desktop and mobile",
-      "iosInstructions": "To install StarkEd on your iOS device:\n\n1. Tap the Share button at the bottom of Safari\n2. Scroll down and tap \"Add to Home Screen\"\n3. Tap \"Add\" to confirm installation\n\nThis will add StarkEd to your home screen for easy access!",
+      "iosInstructions": "To install Eduban on your iOS device:\n\n1. Tap the Share button at the bottom of Safari\n2. Scroll down and tap \"Add to Home Screen\"\n3. Tap \"Add\" to confirm installation\n\nThis will add Eduban to your home screen for easy access!",
       "iosButton": "Learn How to Install"
     },
     "banner": {
-      "message": "Install StarkEd for offline access and notifications",
+      "message": "Install Eduban for offline access and notifications",
       "dismiss": "Dismiss"
     },
     "update": {
-      "available": "A new version of StarkEd is available.",
+      "available": "A new version of Eduban is available.",
       "reload": "Reload"
     },
     "offline": {
@@ -293,30 +293,30 @@
     "resetZoom": "Reset zoom"
   },
   "seo": {
-    "title": "StarkEd Education - {{pageTitle}}",
+    "title": "Eduban Education - {{pageTitle}}",
     "description": "{{pageDescription}} - Learn blockchain development with courses powered by Stellar",
     "keywords": "blockchain, education, stellar, cryptocurrency, web3, decentralized, learning, courses, certificates",
-    "author": "StarkEd Education Team",
+    "author": "Eduban Education Team",
     "robots": "index, follow",
-    "canonical": "https://starked-education.com{{path}}",
-    "ogTitle": "StarkEd Education",
+    "canonical": "https://eduban.com{{path}}",
+    "ogTitle": "Eduban Education",
     "ogDescription": "Decentralized learning platform powered by Stellar blockchain",
-    "ogImage": "https://starked-education.com/images/og-image.jpg",
-    "ogUrl": "https://starked-education.com{{path}}",
+    "ogImage": "https://eduban.com/images/og-image.jpg",
+    "ogUrl": "https://eduban.com{{path}}",
     "ogType": "website",
-    "ogSiteName": "StarkEd Education",
+    "ogSiteName": "Eduban Education",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "StarkEd Education",
+    "twitterTitle": "Eduban Education",
     "twitterDescription": "Decentralized learning platform powered by Stellar blockchain",
-    "twitterImage": "https://starked-education.com/images/twitter-image.jpg",
-    "twitterSite": "@starked_education"
+    "twitterImage": "https://eduban.com/images/twitter-image.jpg",
+    "twitterSite": "@eduban"
   },
   "meta": {
     "version": "Version {{version}}",
     "build": "Build {{build}}",
     "environment": "{{environment}} Environment",
     "lastUpdated": "Last updated: {{date}}",
-    "copyright": "© {{year}} StarkEd Education. All rights reserved.",
+    "copyright": "© {{year}} Eduban Education. All rights reserved.",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "cookiePolicy": "Cookie Policy",

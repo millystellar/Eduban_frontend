@@ -55,7 +55,7 @@ export function useLabCollaboration({ roomId }: UseLabCollaborationOptions = {})
       channelRef.current.close();
     }
 
-    const channel = new BroadcastChannel(`starked_lab_${roomKey}`);
+    const channel = new BroadcastChannel(`eduban_lab_${roomKey}`);
     channelRef.current = channel;
     setMode('broadcast');
 

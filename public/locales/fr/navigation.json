@@ -1,6 +1,6 @@
 {
   "header": {
-    "logo": "StarkEd Éducation",
+    "logo": "Eduban Éducation",
     "home": "Accueil",
     "courses": "Cours",
     "campus": "Campus",
@@ -17,7 +17,7 @@
     "search": "Rechercher des cours, sujets ou instructeurs..."
   },
   "footer": {
-    "about": "À propos de StarkEd",
+    "about": "À propos de Eduban",
     "aboutDescription": "Plateforme d'apprentissage décentralisée alimentée par la blockchain Stellar",
     "quickLinks": "Liens rapides",
     "courses": "Cours",
@@ -38,7 +38,7 @@
     "privacyPolicy": "Politique de confidentialité",
     "termsOfService": "Conditions d'utilisation",
     "cookiePolicy": "Politique de cookies",
-    "copyright": "© {{year}} StarkEd Éducation. Tous droits réservés.",
+    "copyright": "© {{year}} Eduban Éducation. Tous droits réservés.",
     "madeWith": "Fait avec ❤️ sur Stellar"
   },
   "sidebar": {

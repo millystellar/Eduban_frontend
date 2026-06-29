@@ -1,6 +1,6 @@
 {
-  "name": "StarkEd - Decentralized Learning Platform",
-  "short_name": "StarkEd",
+  "name": "Eduban - Decentralized Learning Platform",
+  "short_name": "Eduban",
   "description": "Learn, earn credentials, and verify achievements on the Stellar blockchain",
   "start_url": "/",
   "display": "standalone",
@@ -127,13 +127,13 @@
   },
   "protocol_handlers": [
     {
-      "protocol": "web+starked",
+      "protocol": "web+eduban",
       "url": "/handler?protocol=%s"
     }
   ],
   "scope_extensions": [
     {
-      "origin": "https://*.starked-education.com"
+      "origin": "https://*.eduban.com"
     }
   ]
 }

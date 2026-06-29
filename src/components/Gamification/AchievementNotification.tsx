@@ -116,7 +116,7 @@ export function AchievementNotification({
       onShare();
     } else {
       // Default share behavior
-      const shareText = `🎉 Just unlocked the "${achievement.name}" achievement on StarkEd Education!`;
+      const shareText = `🎉 Just unlocked the "${achievement.name}" achievement on Eduban Education!`;
       
       if (navigator.share) {
         navigator.share({

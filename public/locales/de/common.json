@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "StarkEd Bildung",
+    "name": "Eduban Bildung",
     "tagline": "Dezentrale Lernplattform",
     "description": "Lernen Sie Blockchain-Entwicklung mit von Stellar angetriebenen Kursen"
   },
@@ -208,7 +208,7 @@
     "different": "Muss sich von {{field}} unterscheiden"
   },
   "messages": {
-    "welcome": "Willkommen bei StarkEd Bildung",
+    "welcome": "Willkommen bei Eduban Bildung",
     "goodMorning": "Guten Morgen",
     "goodAfternoon": "Guten Tag",
     "goodEvening": "Guten Abend",
@@ -256,30 +256,30 @@
     "resetZoom": "Zoom zurücksetzen"
   },
   "seo": {
-    "title": "StarkEd Bildung - {{pageTitle}}",
+    "title": "Eduban Bildung - {{pageTitle}}",
     "description": "{{pageDescription}} - Lernen Sie Blockchain-Entwicklung mit von Stellar angetriebenen Kursen",
     "keywords": "blockchain, bildung, stellar, kryptowährung, web3, dezentral, lernen, kurse, zertifikate",
-    "author": "StarkEd Bildung Team",
+    "author": "Eduban Bildung Team",
     "robots": "index, follow",
-    "canonical": "https://starked-education.com{{path}}",
-    "ogTitle": "StarkEd Bildung",
+    "canonical": "https://eduban.com{{path}}",
+    "ogTitle": "Eduban Bildung",
     "ogDescription": "Dezentrale Lernplattform angetrieben von Stellar Blockchain",
-    "ogImage": "https://starked-education.com/images/og-image.jpg",
-    "ogUrl": "https://starked-education.com{{path}}",
+    "ogImage": "https://eduban.com/images/og-image.jpg",
+    "ogUrl": "https://eduban.com{{path}}",
     "ogType": "website",
-    "ogSiteName": "StarkEd Bildung",
+    "ogSiteName": "Eduban Bildung",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "StarkEd Bildung",
+    "twitterTitle": "Eduban Bildung",
     "twitterDescription": "Dezentrale Lernplattform angetrieben von Stellar Blockchain",
-    "twitterImage": "https://starked-education.com/images/twitter-image.jpg",
-    "twitterSite": "@starked_education"
+    "twitterImage": "https://eduban.com/images/twitter-image.jpg",
+    "twitterSite": "@eduban"
   },
   "meta": {
     "version": "Version {{version}}",
     "build": "Build {{build}}",
     "environment": "Umgebung {{environment}}",
     "lastUpdated": "Letzte Aktualisierung: {{date}}",
-    "copyright": "© {{year}} StarkEd Bildung. Alle Rechte vorbehalten.",
+    "copyright": "© {{year}} Eduban Bildung. Alle Rechte vorbehalten.",
     "privacyPolicy": "Datenschutzerklärung",
     "termsOfService": "Nutzungsbedingungen",
     "cookiePolicy": "Cookie-Richtlinie",

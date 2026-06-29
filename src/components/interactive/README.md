@@ -1,6 +1,6 @@
 # Interactive Learning Components - Documentation & Examples
 
-This comprehensive guide covers all interactive learning components developed for the StarkEd Education platform.
+This comprehensive guide covers all interactive learning components developed for the Eduban Education platform.
 
 ## 📚 Table of Contents
 
@@ -751,9 +751,9 @@ if (debugMode) {
 
 For issues, questions, or contributions:
 
-- **GitHub Issues**: [Create an issue](https://github.com/jobbykings/starked-education/issues)
-- **Documentation**: [View docs](https://starked-education.org/docs)
-- **Community**: [Join Discord](https://discord.gg/starked-education)
+- **GitHub Issues**: [Create an issue](https://github.com/millystellar/eduban-frontend/issues)
+- **Documentation**: [View docs](https://eduban.org/docs)
+- **Community**: [Join Discord](https://discord.gg/eduban)
 
 ## 🤝 Contributing
 
@@ -762,8 +762,8 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/jobbykings/starked-education.git
-cd starked-education
+git clone https://github.com/millystellar/eduban-frontend.git
+cd eduban
 npm install
 npm run dev
 ```

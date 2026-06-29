@@ -239,15 +239,15 @@
       "notNow": "ليس الآن",
       "dismiss": "إغلاق",
       "platforms": "متوفر لسطح المكتب والجوال",
-      "iosInstructions": "لتثبيت StarkEd على جهاز iOS الخاص بك:\n\n1. اضغط على زر المشاركة في أسفل Safari\n2. مرر لأسفل واضغط على \"إضافة إلى الشاشة الرئيسية\"\n3. اضغط على \"إضافة\" لتأكيد التثبيت\n\nسيؤدي ذلك إلى إضافة StarkEd إلى شاشتك الرئيسية لسهولة الوصول!",
+      "iosInstructions": "لتثبيت Eduban على جهاز iOS الخاص بك:\n\n1. اضغط على زر المشاركة في أسفل Safari\n2. مرر لأسفل واضغط على \"إضافة إلى الشاشة الرئيسية\"\n3. اضغط على \"إضافة\" لتأكيد التثبيت\n\nسيؤدي ذلك إلى إضافة Eduban إلى شاشتك الرئيسية لسهولة الوصول!",
       "iosButton": "تعلم كيفية التثبيت"
     },
     "banner": {
-      "message": "قم بتثبيت StarkEd للوصول دون اتصال والإشعارات",
+      "message": "قم بتثبيت Eduban للوصول دون اتصال والإشعارات",
       "dismiss": "إغلاق"
     },
     "update": {
-      "available": "تتوفر نسخة جديدة من StarkEd.",
+      "available": "تتوفر نسخة جديدة من Eduban.",
       "reload": "إعادة التحميل"
     },
     "offline": {
@@ -298,18 +298,18 @@
     "keywords": "بلوك تشين، تعليم، ستيلار، عملة مشفرة، ويب 3، لامركزي، تعلم، دورات، شهادات",
     "author": "فريق ستارك تعليم",
     "robots": "فهرسة، متابعة",
-    "canonical": "https://starked-education.com{{path}}",
+    "canonical": "https://eduban.com{{path}}",
     "ogTitle": "ستارك تعليم",
     "ogDescription": "منصة تعلم لامركزية مدعومة ببلوك تشين ستيلار",
-    "ogImage": "https://starked-education.com/images/og-image.jpg",
-    "ogUrl": "https://starked-education.com{{path}}",
+    "ogImage": "https://eduban.com/images/og-image.jpg",
+    "ogUrl": "https://eduban.com{{path}}",
     "ogType": "موقع ويب",
     "ogSiteName": "ستارك تعليم",
     "twitterCard": "summary_large_image",
     "twitterTitle": "ستارك تعليم",
     "twitterDescription": "منصة تعلم لامركزية مدعومة ببلوك تشين ستيلار",
-    "twitterImage": "https://starked-education.com/images/twitter-image.jpg",
-    "twitterSite": "@starked_education"
+    "twitterImage": "https://eduban.com/images/twitter-image.jpg",
+    "twitterSite": "@eduban"
   },
   "meta": {
     "version": "الإصدار {{version}}",

@@ -8,7 +8,7 @@ const CredentialMarketplace = () => {
   const categories = ['All', 'Blockchain', 'AI', 'Fullstack', 'Cybersecurity'];
   
   const mockCredentials = [
-    { id: 1, title: 'Soroban Smart Contract Expert', issuer: 'StarkEd Academy', price: 450, supply: 100, trend: '+12%', category: 'Blockchain' },
+    { id: 1, title: 'Soroban Smart Contract Expert', issuer: 'Eduban Academy', price: 450, supply: 100, trend: '+12%', category: 'Blockchain' },
     { id: 2, title: 'Generative AI Specialist', issuer: 'Deepmind Studio', price: 890, supply: 50, trend: '+28%', category: 'AI' },
     { id: 3, title: 'Rust Systems Architect', issuer: 'Mozilla Certified', price: 210, supply: 500, trend: '-2%', category: 'Fullstack' },
     { id: 4, title: 'Zero Knowledge Researcher', issuer: 'ZKVera Protocol', price: 1250, supply: 10, trend: '+45%', category: 'Blockchain' },

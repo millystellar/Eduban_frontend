@@ -81,18 +81,18 @@ const MOCK_CREDENTIALS: Credential[] = [
   {
     id: '1',
     title: 'React Development Certificate',
-    issuer: 'StarkEd Academy',
+    issuer: 'Eduban Academy',
     issueDate: '2023-02-15',
     credentialId: 'SE-REACT-2023-001',
     type: 'certificate',
     verificationStatus: 'verified',
-    verificationUrl: 'https://verify.starked.com/SE-REACT-2023-001',
+    verificationUrl: 'https://verify.eduban.com/SE-REACT-2023-001',
     skills: ['React', 'JavaScript', 'TypeScript', 'HTML', 'CSS']
   },
   {
     id: '2',
     title: 'Blockchain Fundamentals',
-    issuer: 'StarkEd Academy',
+    issuer: 'Eduban Academy',
     issueDate: '2023-03-20',
     credentialId: 'SE-BC-2023-002',
     type: 'badge',

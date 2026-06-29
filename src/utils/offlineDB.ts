@@ -1,4 +1,4 @@
-const DB_NAME = 'StarkEdOfflineDB';
+const DB_NAME = 'EdubanOfflineDB';
 const DB_VERSION = 1;
 
 export const initDB = (): Promise<IDBDatabase> => {

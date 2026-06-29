@@ -503,4 +503,4 @@ MIT License - see LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
-Built with ❤️ for the StarkEd Education community to create personalized learning experiences that adapt to every student's unique needs and learning style.
+Built with ❤️ for the Eduban Education community to create personalized learning experiences that adapt to every student's unique needs and learning style.

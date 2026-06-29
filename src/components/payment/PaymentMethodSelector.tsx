@@ -672,7 +672,7 @@ export function PaymentMethodSelector({
             <div className="space-y-3">
               <div>
                 <Label>Bank Name</Label>
-                <Input value="StarkEd Education Bank" readOnly />
+                <Input value="Eduban Education Bank" readOnly />
               </div>
 
               <div>

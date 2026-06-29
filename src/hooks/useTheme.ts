@@ -6,7 +6,7 @@ import { useCallback, useEffect, useState } from 'react';
 export type ThemeMode = 'light' | 'dark' | 'system';
 
 /** The localStorage key used across both routers. */
-export const THEME_STORAGE_KEY = 'starked-theme';
+export const THEME_STORAGE_KEY = 'eduban-theme';
 
 const THEME_CYCLE: ThemeMode[] = ['light', 'dark', 'system'];
 
@@ -69,7 +69,7 @@ export interface UseThemeReturn {
  * useTheme
  *
  * Thin wrapper around `next-themes` that:
- *  - Persists choice under `starked-theme` in localStorage.
+ *  - Persists choice under `eduban-theme` in localStorage.
  *  - Cycles Light → Dark → System on each `cycleTheme()` call.
  *  - Announces changes to screen readers via a polite live region.
  *  - Exposes `prefersReducedMotion` so callers can skip animations.
@@ -88,7 +88,7 @@ export function useTheme(): UseThemeReturn {
     (next: ThemeMode) => {
       setNextTheme(next);
       // next-themes already writes to localStorage, but under its own key.
-      // Mirror to `starked-theme` so both routers share the same key.
+      // Mirror to `eduban-theme` so both routers share the same key.
       try {
         localStorage.setItem(THEME_STORAGE_KEY, next);
       } catch {

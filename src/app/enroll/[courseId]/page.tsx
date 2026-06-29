@@ -118,7 +118,7 @@ const EnrollmentPage: React.FC = () => {
       try {
         await navigator.share({
           title: `Enrolled in ${course.title}`,
-          text: `I've just enrolled in ${course.title} on StarkEd Education!`,
+          text: `I've just enrolled in ${course.title} on Eduban Education!`,
           url: window.location.href
         });
       } catch (error) {

@@ -32,7 +32,7 @@ export default function AdminHeader({ title = 'Dashboard' }: AdminHeaderProps) {
         {/* Page Title */}
         <div>
           <h1 className="text-2xl font-semibold text-gray-800">{title}</h1>
-          <p className="text-sm text-gray-600 mt-1">Manage your StarkEd platform</p>
+          <p className="text-sm text-gray-600 mt-1">Manage your Eduban platform</p>
         </div>
 
         {/* Search Bar */}
@@ -102,7 +102,7 @@ export default function AdminHeader({ title = 'Dashboard' }: AdminHeaderProps) {
               <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 z-50">
                 <div className="p-3 border-b border-gray-200">
                   <p className="font-medium text-gray-800">Admin User</p>
-                  <p className="text-sm text-gray-600">admin@starked.com</p>
+                  <p className="text-sm text-gray-600">admin@eduban.com</p>
                 </div>
                 <div className="py-2">
                   <button className="w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-100 flex items-center gap-2">

@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "StarkEd Éducation",
+    "name": "Eduban Éducation",
     "tagline": "Plateforme d'Apprentissage Décentralisée",
     "description": "Apprenez le développement blockchain avec des cours alimentés par Stellar"
   },
@@ -209,7 +209,7 @@
     "different": "Doit être différent de {{field}}"
   },
   "messages": {
-    "welcome": "Bienvenue sur StarkEd Éducation",
+    "welcome": "Bienvenue sur Eduban Éducation",
     "goodMorning": "Bonjour",
     "goodAfternoon": "Bon après-midi",
     "goodEvening": "Bonsoir",
@@ -233,21 +233,21 @@
   },
   "pwa": {
     "install": {
-      "title": "Installer StarkEd",
+      "title": "Installer Eduban",
       "description": "Installez notre application pour la meilleure expérience ! Obtenez un accès hors ligne, un chargement plus rapide et des notifications push.",
       "button": "Installer l'application",
       "notNow": "Pas maintenant",
       "dismiss": "Ignorer",
       "platforms": "Disponible pour bureau et mobile",
-      "iosInstructions": "Pour installer StarkEd sur votre appareil iOS :\n\n1. Appuyez sur le bouton Partager en bas de Safari\n2. Faites défiler vers le bas et appuyez sur \"Ajouter à l'écran d'accueil\"\n3. Appuyez sur \"Ajouter\" pour confirmer l'installation\n\nCela ajoutera StarkEd à votre écran d'accueil pour un accès facile !",
+      "iosInstructions": "Pour installer Eduban sur votre appareil iOS :\n\n1. Appuyez sur le bouton Partager en bas de Safari\n2. Faites défiler vers le bas et appuyez sur \"Ajouter à l'écran d'accueil\"\n3. Appuyez sur \"Ajouter\" pour confirmer l'installation\n\nCela ajoutera Eduban à votre écran d'accueil pour un accès facile !",
       "iosButton": "Comment installer"
     },
     "banner": {
-      "message": "Installez StarkEd pour l'accès hors ligne et les notifications",
+      "message": "Installez Eduban pour l'accès hors ligne et les notifications",
       "dismiss": "Ignorer"
     },
     "update": {
-      "available": "Une nouvelle version de StarkEd est disponible.",
+      "available": "Une nouvelle version de Eduban est disponible.",
       "reload": "Recharger"
     },
     "offline": {
@@ -293,30 +293,30 @@
     "resetZoom": "Réinitialiser le zoom"
   },
   "seo": {
-    "title": "StarkEd Éducation - {{pageTitle}}",
+    "title": "Eduban Éducation - {{pageTitle}}",
     "description": "{{pageDescription}} - Apprenez le développement blockchain avec des cours alimentés par Stellar",
     "keywords": "blockchain, éducation, stellar, cryptomonnaie, web3, décentralisé, apprentissage, cours, certificats",
-    "author": "Équipe StarkEd Éducation",
+    "author": "Équipe Eduban Éducation",
     "robots": "index, follow",
-    "canonical": "https://starked-education.com{{path}}",
-    "ogTitle": "StarkEd Éducation",
+    "canonical": "https://eduban.com{{path}}",
+    "ogTitle": "Eduban Éducation",
     "ogDescription": "Plateforme d'apprentissage décentralisée alimentée par la blockchain Stellar",
-    "ogImage": "https://starked-education.com/images/og-image.jpg",
-    "ogUrl": "https://starked-education.com{{path}}",
+    "ogImage": "https://eduban.com/images/og-image.jpg",
+    "ogUrl": "https://eduban.com{{path}}",
     "ogType": "website",
-    "ogSiteName": "StarkEd Éducation",
+    "ogSiteName": "Eduban Éducation",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "StarkEd Éducation",
+    "twitterTitle": "Eduban Éducation",
     "twitterDescription": "Plateforme d'apprentissage décentralisée alimentée par la blockchain Stellar",
-    "twitterImage": "https://starked-education.com/images/twitter-image.jpg",
-    "twitterSite": "@starked_education"
+    "twitterImage": "https://eduban.com/images/twitter-image.jpg",
+    "twitterSite": "@eduban"
   },
   "meta": {
     "version": "Version {{version}}",
     "build": "Build {{build}}",
     "environment": "Environnement {{environment}}",
     "lastUpdated": "Dernière mise à jour : {{date}}",
-    "copyright": "© {{year}} StarkEd Éducation. Tous droits réservés.",
+    "copyright": "© {{year}} Eduban Éducation. Tous droits réservés.",
     "privacyPolicy": "Politique de Confidentialité",
     "termsOfService": "Conditions d'Utilisation",
     "cookiePolicy": "Politique de Cookies",

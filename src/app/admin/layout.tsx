@@ -7,8 +7,8 @@ import { AuthProvider } from '@/contexts/AuthContext';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Admin Panel - StarkEd Education',
-  description: 'Administrative interface for StarkEd platform management',
+  title: 'Admin Panel - Eduban Education',
+  description: 'Administrative interface for Eduban platform management',
 };
 
 export default function AdminLayout({

@@ -6,7 +6,7 @@ import { AchievementDisplay } from '../../components/AchievementDisplay';
 import { CredentialList } from '../../components/CredentialList';
 import { ProfileStats } from '../../components/ProfileStats';
 import { useProfile } from '../../hooks/useProfile';
-import { testProfile, testAchievements, testCredentials, testStats } from '../../test-profile';
+import { testProfile, testAchievements, testCredentials, testStats } from '../../test/fixtures/profile';
 import { 
   User, 
   Trophy, 
@@ -246,7 +246,7 @@ export default function DemoPage() {
             Profile Management Dashboard
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            A comprehensive profile management system for the StarkEd Education platform
+            A comprehensive profile management system for the Eduban Education platform
           </p>
         </div>
 

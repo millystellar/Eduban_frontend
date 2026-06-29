@@ -109,7 +109,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>StarkEd Temporal Learning Studio</title>
+        <title>Eduban Temporal Learning Studio</title>
         <meta
           name="description"
           content="A frontend prototype for adaptive learning acceleration with temporal pacing, personalization, and safety guardrails."

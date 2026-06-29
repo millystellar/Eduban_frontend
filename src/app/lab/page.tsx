@@ -3,7 +3,7 @@ import { VirtualScienceLab } from '../../components/Lab';
 import ErrorBoundary from '../../components/ErrorBoundary';
 
 export const metadata: Metadata = {
-  title: 'Virtual Science Laboratory — StarkEd',
+  title: 'Virtual Science Laboratory — Eduban',
   description: 'Interactive virtual lab for experiments with 3D equipment, guided steps, safety warnings, and collaboration.'
 };
 

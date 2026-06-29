@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router.asPath]);
 
   return (
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem storageKey="starked-theme">
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem storageKey="eduban-theme">
       <ErrorBoundary key={router.asPath}>
         <WalletProvider>
           <a className="skip-link" href="#main-content">

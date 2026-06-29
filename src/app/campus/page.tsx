@@ -3,7 +3,7 @@ import { MetaverseCampus } from '../../components/Metaverse';
 import ErrorBoundary from '../../components/ErrorBoundary';
 
 export const metadata: Metadata = {
-  title: 'Metaverse Campus — StarkEd',
+  title: 'Metaverse Campus — Eduban',
   description: 'Immersive virtual learning campus with classrooms, social spaces, and avatar interaction.',
 };
 

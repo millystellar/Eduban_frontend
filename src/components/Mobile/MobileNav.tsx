@@ -245,7 +245,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({
         >
           <div className="w-full max-w-md mx-auto bg-white rounded-lg shadow-xl">
             <form onSubmit={handleSearch} className="p-4">
-              <h2 id="mobile-search-title" className="sr-only">Search StarkEd</h2>
+              <h2 id="mobile-search-title" className="sr-only">Search Eduban</h2>
               <div className="flex items-center gap-3">
                 <Search aria-hidden="true" className="w-5 h-5 text-gray-500" />
                 <input
@@ -301,7 +301,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({
           {/* Header */}
           <div className="bg-blue-500 text-white p-4">
             <div className="flex items-center justify-between mb-4">
-              <h2 id="mobile-navigation-title" className="text-lg font-semibold">StarkEd navigation</h2>
+              <h2 id="mobile-navigation-title" className="text-lg font-semibold">Eduban navigation</h2>
               <button
                 onClick={() => setIsOpen(false)}
                 className="p-2 hover:bg-blue-600 rounded-lg transition-colors touch-manipulation"

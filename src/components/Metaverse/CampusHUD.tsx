@@ -39,8 +39,8 @@ export function CampusHUD({ totalOnline, buildings, onEnterBuilding }: Props) {
         {/* Brand */}
         <div className="flex items-center gap-1.5 rounded-xl bg-slate-900/80 px-3 py-1.5 sm:px-4 sm:py-2 backdrop-blur ring-1 ring-slate-700/60 pointer-events-auto">
           <span className="text-base sm:text-lg">🎓</span>
-          <span className="text-xs sm:text-sm font-bold tracking-wide text-white hidden sm:inline">StarkEd Metaverse Campus</span>
-          <span className="text-xs sm:text-sm font-bold tracking-wide text-white sm:hidden">StarkEd</span>
+          <span className="text-xs sm:text-sm font-bold tracking-wide text-white hidden sm:inline">Eduban Metaverse Campus</span>
+          <span className="text-xs sm:text-sm font-bold tracking-wide text-white sm:hidden">Eduban</span>
           <span className="ml-1 rounded-full bg-blue-600/30 px-1.5 py-0.5 text-[9px] sm:text-[10px] font-semibold uppercase tracking-widest text-blue-300">
             BETA
           </span>

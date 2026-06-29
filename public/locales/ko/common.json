@@ -261,18 +261,18 @@
     "keywords": "블록체인, 교육, 스텔라, 암호화폐, web3, 분산형, 학습, 코스, 증명서",
     "author": "스타크 교육 팀",
     "robots": "index, follow",
-    "canonical": "https://starked-education.com{{path}}",
+    "canonical": "https://eduban.com{{path}}",
     "ogTitle": "스타크 교육",
     "ogDescription": "스텔라 블록체인으로 구동되는 분산형 학습 플랫폼",
-    "ogImage": "https://starked-education.com/images/og-image.jpg",
-    "ogUrl": "https://starked-education.com{{path}}",
+    "ogImage": "https://eduban.com/images/og-image.jpg",
+    "ogUrl": "https://eduban.com{{path}}",
     "ogType": "website",
     "ogSiteName": "스타크 교육",
     "twitterCard": "summary_large_image",
     "twitterTitle": "스타크 교육",
     "twitterDescription": "스텔라 블록체인으로 구동되는 분산형 학습 플랫폼",
-    "twitterImage": "https://starked-education.com/images/twitter-image.jpg",
-    "twitterSite": "@starked_education"
+    "twitterImage": "https://eduban.com/images/twitter-image.jpg",
+    "twitterSite": "@eduban"
   },
   "meta": {
     "version": "버전 {{version}}",

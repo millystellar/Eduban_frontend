@@ -30,8 +30,8 @@ interface InstallPromptProps {
   visitThreshold?: number;
 }
 
-const VISIT_KEY = 'starked-pwa-visit-routes';
-const DISMISS_KEY = 'starked-pwa-install-dismissed';
+const VISIT_KEY = 'eduban-pwa-visit-routes';
+const DISMISS_KEY = 'eduban-pwa-install-dismissed';
 
 export const InstallPrompt: React.FC<InstallPromptProps> = ({
   onInstall,
@@ -160,7 +160,7 @@ export const InstallPrompt: React.FC<InstallPromptProps> = ({
   const handleIOSInstall = () => {
     const instructions = t('pwa.install.iosInstructions', {
       defaultValue:
-        'To install StarkEd on your iOS device:\n\n1. Tap the Share button at the bottom of Safari\n2. Scroll down and tap "Add to Home Screen"\n3. Tap "Add" to confirm installation\n\nThis will add StarkEd to your home screen for easy access!',
+        'To install Eduban on your iOS device:\n\n1. Tap the Share button at the bottom of Safari\n2. Scroll down and tap "Add to Home Screen"\n3. Tap "Add" to confirm installation\n\nThis will add Eduban to your home screen for easy access!',
     });
     // eslint-disable-next-line no-alert
     alert(instructions);
@@ -182,12 +182,12 @@ export const InstallPrompt: React.FC<InstallPromptProps> = ({
             <Smartphone className="w-6 h-6 flex-shrink-0 mt-1" />
             <div className="flex-1">
               <h3 className="font-semibold mb-2">
-                {t('pwa.install.title', { defaultValue: 'Install StarkEd' })}
+                {t('pwa.install.title', { defaultValue: 'Install Eduban' })}
               </h3>
               <p className="text-sm text-blue-100 mb-3">
                 {t('pwa.install.description', {
                   defaultValue:
-                    'Get the full experience with our app! Install StarkEd on your device for offline access and push notifications.',
+                    'Get the full experience with our app! Install Eduban on your device for offline access and push notifications.',
                 })}
               </p>
               <button
@@ -227,7 +227,7 @@ export const InstallPrompt: React.FC<InstallPromptProps> = ({
             </div>
             <div className="flex-1">
               <h3 className="font-semibold text-gray-900 mb-2">
-                {t('pwa.install.title', { defaultValue: 'Install StarkEd' })}
+                {t('pwa.install.title', { defaultValue: 'Install Eduban' })}
               </h3>
               <p className="text-sm text-gray-600 mb-3">
                 {t('pwa.install.description', {
@@ -358,7 +358,7 @@ export const InstallBanner: React.FC<{ className?: string }> = ({
           <span className="text-sm text-blue-800 truncate">
             {t('pwa.banner.message', {
               defaultValue:
-                'Install StarkEd for offline access and notifications',
+                'Install Eduban for offline access and notifications',
             })}
           </span>
         </div>
@@ -419,7 +419,7 @@ export const UpdateBanner: React.FC = () => {
           <RefreshCw className="w-4 h-4 text-amber-600 flex-shrink-0" />
           <span className="text-sm text-amber-800 truncate">
             {t('pwa.update.available', {
-              defaultValue: 'A new version of StarkEd is available.',
+              defaultValue: 'A new version of Eduban is available.',
             })}
           </span>
         </div>

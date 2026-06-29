@@ -26,33 +26,33 @@ interface SocialSharingProps {
 
 const SHARE_TEMPLATES = {
   achievement: (content: ShareableContent) => ({
-    twitter: `🎉 Just unlocked the "${content.title}" achievement on StarkEd Education! ${content.description} #StarkEd #Learning #Achievement`,
-    facebook: `I'm excited to share that I've earned the "${content.title}" achievement on StarkEd Education! ${content.description} Join me on this learning journey!`,
-    linkedin: `🏆 Professional Development: I've achieved "${content.title}" through StarkEd Education's innovative learning platform. ${content.description} Continuous learning is key to growth! #ProfessionalDevelopment #EdTech`,
-    text: `Check out my latest achievement: "${content.title}" on StarkEd Education! ${content.description}`
+    twitter: `🎉 Just unlocked the "${content.title}" achievement on Eduban Education! ${content.description} #Eduban #Learning #Achievement`,
+    facebook: `I'm excited to share that I've earned the "${content.title}" achievement on Eduban Education! ${content.description} Join me on this learning journey!`,
+    linkedin: `🏆 Professional Development: I've achieved "${content.title}" through Eduban Education's innovative learning platform. ${content.description} Continuous learning is key to growth! #ProfessionalDevelopment #EdTech`,
+    text: `Check out my latest achievement: "${content.title}" on Eduban Education! ${content.description}`
   }),
   milestone: (content: ShareableContent) => ({
-    twitter: `🎯 Milestone reached! ${content.title} on StarkEd Education! ${content.description} #LearningJourney #Milestone`,
-    facebook: `I've reached an important milestone: ${content.title}! ${content.description} Thanks to StarkEd Education for making learning engaging and rewarding.`,
-    linkedin: `Career Milestone: ${content.title} through dedicated learning on StarkEd Education. ${content.description} Setting and achieving goals is fundamental to professional growth. #CareerGrowth #LifelongLearning`,
+    twitter: `🎯 Milestone reached! ${content.title} on Eduban Education! ${content.description} #LearningJourney #Milestone`,
+    facebook: `I've reached an important milestone: ${content.title}! ${content.description} Thanks to Eduban Education for making learning engaging and rewarding.`,
+    linkedin: `Career Milestone: ${content.title} through dedicated learning on Eduban Education. ${content.description} Setting and achieving goals is fundamental to professional growth. #CareerGrowth #LifelongLearning`,
     text: `Milestone achieved: ${content.title} - ${content.description}`
   }),
   streak: (content: ShareableContent) => ({
-    twitter: `🔥 ${content.streak}-day learning streak on StarkEd Education! Consistency is key to success! #StarkEd #LearningStreak #Discipline`,
-    facebook: `I've maintained a ${content.streak}-day learning streak on StarkEd Education! It's amazing what consistent daily learning can achieve. Every day counts!`,
-    linkedin: `Consistency & Discipline: ${content.streak}-day learning streak on StarkEd Education. Daily learning habits are building blocks for long-term success and expertise. #ProfessionalDevelopment #Habits`,
+    twitter: `🔥 ${content.streak}-day learning streak on Eduban Education! Consistency is key to success! #Eduban #LearningStreak #Discipline`,
+    facebook: `I've maintained a ${content.streak}-day learning streak on Eduban Education! It's amazing what consistent daily learning can achieve. Every day counts!`,
+    linkedin: `Consistency & Discipline: ${content.streak}-day learning streak on Eduban Education. Daily learning habits are building blocks for long-term success and expertise. #ProfessionalDevelopment #Habits`,
     text: `${content.streak}-day learning streak achieved! Consistency pays off.`
   }),
   level: (content: ShareableContent) => ({
-    twitter: `⬆️ Leveled up to ${content.level} on StarkEd Education! Keep growing, keep learning! #LevelUp #StarkEd`,
-    facebook: `So excited to reach level ${content.level} on StarkEd Education! Each level up represents new knowledge and skills gained. The learning journey continues!`,
-    linkedin: `Skill Development: Reached level ${content.level} on StarkEd Education. Continuous upskilling and knowledge acquisition are essential in today's rapidly evolving professional landscape. #SkillDevelopment #EdTech`,
+    twitter: `⬆️ Leveled up to ${content.level} on Eduban Education! Keep growing, keep learning! #LevelUp #Eduban`,
+    facebook: `So excited to reach level ${content.level} on Eduban Education! Each level up represents new knowledge and skills gained. The learning journey continues!`,
+    linkedin: `Skill Development: Reached level ${content.level} on Eduban Education. Continuous upskilling and knowledge acquisition are essential in today's rapidly evolving professional landscape. #SkillDevelopment #EdTech`,
     text: `Reached level ${content.level} on my learning journey!`
   }),
   certificate: (content: ShareableContent) => ({
-    twitter: `📜 Earned my certificate: ${content.title} from StarkEd Education! New skills unlocked! #Certificate #StarkEd`,
-    facebook: `Proud to announce that I've earned my certificate in ${content.title} from StarkEd Education! This represents hours of dedicated learning and skill development.`,
-    linkedin: `Professional Certification: Successfully completed ${content.title} through StarkEd Education. This certification validates my expertise and commitment to continuous professional development. #Certification #ProfessionalGrowth`,
+    twitter: `📜 Earned my certificate: ${content.title} from Eduban Education! New skills unlocked! #Certificate #Eduban`,
+    facebook: `Proud to announce that I've earned my certificate in ${content.title} from Eduban Education! This represents hours of dedicated learning and skill development.`,
+    linkedin: `Professional Certification: Successfully completed ${content.title} through Eduban Education. This certification validates my expertise and commitment to continuous professional development. #Certification #ProfessionalGrowth`,
     text: `Certificate earned: ${content.title} - New skills and knowledge acquired!`
   })
 };

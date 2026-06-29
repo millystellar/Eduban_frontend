@@ -1,7 +1,7 @@
 {
-  "name": "starked-education-frontend",
+  "name": "eduban-frontend",
   "version": "1.0.0",
-  "description": "Frontend for StarkEd decentralized education platform",
+  "description": "Frontend for Eduban decentralized education platform",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -100,6 +100,6 @@
     "typescript",
     "web3"
   ],
-  "author": "jobbykings",
+  "author": "Meshmulla",
   "license": "MIT"
 }

@@ -30,7 +30,7 @@ export const CollaborativeEditor: React.FC<CollaborativeEditorProps> = ({
 
     // Use a public or local y-websocket server for real-time sync
     const wsProvider = new WebsocketProvider(
-       'wss://y-websocket.starked-education.org', 
+       'wss://y-websocket.eduban.org', 
        roomID, 
        docRef.current
     );
@@ -63,7 +63,7 @@ export const CollaborativeEditor: React.FC<CollaborativeEditorProps> = ({
     try {
        // In production: const pyodide = await window.loadPyodide(); await pyodide.runPythonAsync(code);
        setTimeout(() => {
-          setExecutionResult(`Output: Hello from StarkEd Code Sandbox!\nProcessed: ${code.length} bytes of ${language}.`);
+          setExecutionResult(`Output: Hello from Eduban Code Sandbox!\nProcessed: ${code.length} bytes of ${language}.`);
        }, 800);
     } catch (err: any) {
        setExecutionResult(`Execution Error: ${err.message}`);

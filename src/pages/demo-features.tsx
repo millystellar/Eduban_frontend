@@ -12,7 +12,7 @@ const FeaturesDemoPage = () => {
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         <header style={{ textAlign: 'center', marginBottom: '4rem' }}>
           <h1 style={{ fontSize: '3.5rem', fontWeight: 900, marginBottom: '1rem', background: 'linear-gradient(135deg, #00d4ff, #ff00c8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            STARKED ENTERPRISE FEATURES
+            EDUBAN ENTERPRISE FEATURES
           </h1>
           <p style={{ color: '#b3b3b3', fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto' }}>
             Advanced decentralized education infrastructure: Proctoring, Marketplaces, Tokenomics, and Cross-Chain Portability.
@@ -40,7 +40,7 @@ const FeaturesDemoPage = () => {
         </section>
 
         <footer style={{ textAlign: 'center', padding: '4rem 0', borderTop: '1px solid #1e1e24', color: '#b3b3b3' }}>
-           <p>© 2026 StarkEd - Multi-Chain Education Protocol. Built on Stellar & Soroban.</p>
+           <p>© 2026 Eduban - Multi-Chain Education Protocol. Built on Stellar & Soroban.</p>
         </footer>
       </div>
     </main>

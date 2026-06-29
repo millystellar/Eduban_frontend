@@ -861,7 +861,7 @@ MIT License - see LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
-Built with ❤️ for the StarkEd Education community to create immersive AR/VR learning experiences that transform education through augmented and virtual reality technology.
+Built with ❤️ for the Eduban Education community to create immersive AR/VR learning experiences that transform education through augmented and virtual reality technology.
 
 ---
 

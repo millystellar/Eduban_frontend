@@ -23,7 +23,7 @@ const DemoContent: React.FC = () => {
           <div className="bg-indigo-600 p-2 rounded-lg">
             <Brain className="text-white w-6 h-6" />
           </div>
-          <h1 className="text-xl font-bold text-gray-900 tracking-tight">StarkEd <span className="text-indigo-600">BioLearn</span></h1>
+          <h1 className="text-xl font-bold text-gray-900 tracking-tight">Eduban <span className="text-indigo-600">BioLearn</span></h1>
         </div>
         
         <div className="flex items-center gap-4">
@@ -160,7 +160,7 @@ export default function BioLearningDemo() {
     <RouteErrorBoundary routeName="Bio-Learning Demo">
       <BiometricProvider>
         <Head>
-          <title>Bio-Integrated Learning | StarkEd</title>
+          <title>Bio-Integrated Learning | Eduban</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <DemoContent />

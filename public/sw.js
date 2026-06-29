@@ -1,5 +1,5 @@
 /**
- * StarkEd Service Worker v3
+ * Eduban Service Worker v3
  *
  * Caching strategies:
  *   - Course content (lessons, videos, quizzes):  CacheFirst, 7-day expiration
@@ -23,17 +23,17 @@ if (workbox) {
     workbox;
 
   // Bumped to v3 so previous caches get cleanly evicted on activation.
-  const STATIC_CACHE = 'starked-static-v3';
-  const COURSE_CACHE = 'starked-course-content-v3';
-  const API_CACHE = 'starked-api-v3';
-  const DYNAMIC_CACHE = 'starked-dynamic-v3';
-  const COURSE_QUEUE = 'starked-offline-course-queue';
+  const STATIC_CACHE = 'eduban-static-v3';
+  const COURSE_CACHE = 'eduban-course-content-v3';
+  const API_CACHE = 'eduban-api-v3';
+  const DYNAMIC_CACHE = 'eduban-dynamic-v3';
+  const COURSE_QUEUE = 'eduban-offline-course-queue';
 
   // ---------------------------------------------------------------------------
   // Background sync plugin for mutating requests (POST / PUT / DELETE / PATCH)
   // ---------------------------------------------------------------------------
   const bgSyncPlugin = new backgroundSync.BackgroundSyncPlugin(
-    'starked-offline-queue',
+    'eduban-offline-queue',
     {
       maxRetentionTime: 24 * 60, // Retry for up to 24 hours (specified in minutes)
       onSync: async ({ queue }) => {
@@ -153,7 +153,7 @@ if (workbox) {
         const keys = await caches.keys();
         await Promise.all(
           keys
-            .filter((key) => key.startsWith('starked-') && !allowedCaches.includes(key))
+            .filter((key) => key.startsWith('eduban-') && !allowedCaches.includes(key))
             .map((key) => caches.delete(key))
         );
         await self.clients.claim();
@@ -203,11 +203,11 @@ self.addEventListener('push', (event) => {
   try {
     payload = event.data ? event.data.json() : {};
   } catch (_) {
-    payload = { title: 'StarkEd', body: event.data ? event.data.text() : '' };
+    payload = { title: 'Eduban', body: event.data ? event.data.text() : '' };
   }
 
   const options = {
-    body: payload.body || 'You have a new notification from StarkEd',
+    body: payload.body || 'You have a new notification from Eduban',
     icon: '/icons/icon-192x192.png',
     badge: '/icons/badge-72x72.png',
     vibrate: [200, 100, 200],
@@ -219,7 +219,7 @@ self.addEventListener('push', (event) => {
   };
 
   event.waitUntil(
-    self.registration.showNotification(payload.title || 'StarkEd', options)
+    self.registration.showNotification(payload.title || 'Eduban', options)
   );
 });
 

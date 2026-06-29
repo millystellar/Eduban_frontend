@@ -1,6 +1,6 @@
 # Profile Management Dashboard
 
-A comprehensive profile management system for the StarkEd Education platform.
+A comprehensive profile management system for the Eduban Education platform.
 
 ## Features
 
