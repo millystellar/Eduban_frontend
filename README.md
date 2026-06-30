@@ -1,276 +1,216 @@
-# StarkEd Education - Frontend
+<div align="center">
 
-A modern, responsive web application for decentralized education built with Next.js 14, TypeScript, and Tailwind CSS.
+# Eduban Frontend
 
-## 🚀 Features
+**The web dashboard for Eduban — decentralized learning & credential verification on Stellar.**
 
-- **Profile Management Dashboard** - Complete user profile system with achievements, credentials, and statistics
-- **Achievement System** - Gamified learning with rarity-based achievements
-- **Credential Management** - Verification and management of educational credentials
-- **Real-time Statistics** - Comprehensive learning analytics and progress tracking
-- **Responsive Design** - Mobile-first design with dark mode support
-- **Type Safety** - Full TypeScript implementation with strict mode
-- **Error Handling** - Comprehensive error boundaries and graceful fallbacks
-- **Testing** - Jest and React Testing Library setup
-- **CI/CD** - GitHub Actions pipeline for automated testing and deployment
+[![CI](https://github.com/millystellar/Eduban_frontend/actions/workflows/ci.yml/badge.svg)](https://github.com/millystellar/Eduban_frontend/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-## 🛠 Tech Stack
+[Report a bug](https://github.com/millystellar/Eduban_frontend/issues/new?labels=bug) ·
+[Request a feature](https://github.com/millystellar/Eduban_frontend/issues/new?labels=enhancement) ·
+[Contribute](CONTRIBUTING.md)
 
-- **Framework**: Next.js 14 with App Router
-- **Language**: TypeScript 5.1+
-- **Styling**: Tailwind CSS 3.3
-- **Icons**: Lucide React
-- **Forms**: React Hook Form 7
-- **Testing**: Jest + React Testing Library
-- **Linting**: ESLint + TypeScript ESLint
-- **Formatting**: Prettier
-- **Containerization**: Docker
-- **CI/CD**: GitHub Actions
+</div>
 
-## 📦 Installation
+---
 
-1. Clone the repository
-```bash
-git clone https://github.com/your-org/starked-education.git
-cd starked-education/frontend
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Getting Started](#getting-started)
+- [Environment Variables](#environment-variables)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Related Repositories](#related-repositories)
+- [License](#license)
+
+## About
+
+Eduban is an open-source platform for issuing and verifying tamper-proof educational
+credentials on the [Stellar](https://stellar.org) blockchain. This repository holds the
+**frontend** — a responsive, accessible web application where learners manage their
+profiles and credentials, instructors publish courses, and anyone can verify a credential
+on-chain.
+
+It talks to the [Eduban backend](https://github.com/millystellar/Eduban_backend) for data
+and to [Eduban smart contracts](https://github.com/millystellar/Eduban_contract) (via the
+Stellar SDK) for on-chain operations.
+
+## Features
+
+- 🎓 **Credential management** — view, share, and verify blockchain-backed credentials
+- 🏆 **Achievement system** — gamified, rarity-based learning achievements as dynamic NFTs
+- 👤 **Profile dashboard** — unified view of credentials, achievements, and progress
+- 📊 **Learning analytics** — real-time progress and completion statistics
+- 🔐 **Wallet integration** — connect with Freighter, Albedo, and other Stellar wallets
+- 🌍 **Internationalization** — multi-language support via `i18next`
+- 🌓 **Dark mode** — system-aware light/dark theming
+- ♿ **Accessibility** — WCAG-AA-minded components and keyboard navigation
+- 📱 **PWA** — installable with offline support
+- 🧪 **Well-tested** — Jest + React Testing Library
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript 5 (strict) |
+| Styling | Tailwind CSS, Radix UI |
+| State/Data | React Context, custom hooks |
+| Blockchain | Stellar SDK, Freighter API, Stellar Wallets Kit |
+| Realtime | Socket.io client |
+| i18n | i18next / next-i18next |
+| Testing | Jest, React Testing Library |
+| Tooling | ESLint, Prettier, Husky |
+
+## Architecture
+
+```
+┌──────────────────┐      REST / WS       ┌──────────────────┐
+│  Eduban Frontend │ ───────────────────► │  Eduban Backend  │
+│   (this repo)    │ ◄─────────────────── │   (API + DB)     │
+└────────┬─────────┘                      └──────────────────┘
+         │ Stellar SDK (wallet sign / read)
+         ▼
+┌──────────────────┐
+│ Eduban Contracts │  (Soroban on Stellar)
+└──────────────────┘
 ```
 
-2. Install dependencies
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** v18 or later
+- **npm** v9+ (or your preferred package manager)
+- A running [Eduban backend](https://github.com/millystellar/Eduban_backend) (or point env vars at a hosted instance)
+- A Stellar wallet browser extension (e.g. [Freighter](https://www.freighter.app/)) for on-chain actions
+
+### Installation
+
 ```bash
+# 1. Clone
+git clone https://github.com/millystellar/Eduban_frontend.git
+cd Eduban_frontend
+
+# 2. Install dependencies
 npm install
-```
 
-3. Set up environment variables
-```bash
+# 3. Configure environment
 cp .env.example .env.local
-```
+# edit .env.local with your API URLs and keys
 
-4. Run the development server
-```bash
+# 4. Start the dev server
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+The app runs at **http://localhost:3000**.
 
-## 🧪 Testing
+## Environment Variables
 
-### Run all tests
-```bash
-npm test
+All browser-exposed variables must be prefixed with `NEXT_PUBLIC_`. See
+[`.env.example`](.env.example) for the full list.
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `NEXT_PUBLIC_API_URL` | Backend base URL | `http://localhost:3001` |
+| `NEXT_PUBLIC_API_BASE_URL` | Backend API root | `http://localhost:3001/api` |
+| `NEXT_PUBLIC_WS_URL` | WebSocket URL | `ws://localhost:3001` |
+| `NEXT_PUBLIC_SOCKET_URL` | Socket.io URL | `http://localhost:3001` |
+| `NEXT_PUBLIC_STELLAR_RECEIVER_ADDRESS` | Stellar account for payments | `G...` |
+| `NEXT_PUBLIC_VAPID_PUBLIC_KEY` | Web-push VAPID public key | `B...` |
+
+## Available Scripts
+
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start the development server |
+| `npm run build` | Production build |
+| `npm start` | Serve the production build |
+| `npm run lint` | Run ESLint |
+| `npm run lint:fix` | Auto-fix lint issues |
+| `npm run type-check` | TypeScript type checking (no emit) |
+| `npm test` | Run the test suite |
+| `npm run test:watch` | Run tests in watch mode |
+| `npm run test:coverage` | Run tests with coverage |
+| `npm run analyze` | Bundle-size analysis |
+| `npm run performance-test` | Build + Lighthouse audit |
+
+## Project Structure
+
+```
+src/
+├── app/          # Next.js App Router routes & layouts
+├── pages/        # Legacy Pages Router (where still used)
+├── components/   # Reusable UI + interactive learning widgets
+├── context/      # React context providers
+├── contexts/     # Additional context providers
+├── hooks/        # Custom React hooks
+├── lib/          # Shared libraries & clients
+├── services/     # API + Stellar service layer
+├── store/        # Client-side state
+├── styles/       # Global styles & Tailwind layers
+├── types/        # Shared TypeScript types
+├── utils/        # Helpers & utilities
+└── test/         # Test fixtures & suites
 ```
 
-### Run tests in watch mode
+## Testing
+
 ```bash
-npm run test:watch
+npm test                 # run once
+npm run test:watch       # watch mode
+npm run test:coverage    # with coverage report
 ```
 
-### Generate coverage report
-```bash
-npm run test:coverage
-```
+We aim to keep meaningful coverage on components, hooks, and services. New features
+should ship with tests — see [CONTRIBUTING.md](CONTRIBUTING.md#testing).
 
-### Type checking
-```bash
-npm run type-check
-```
+## Deployment
 
-### Linting
-```bash
-npm run lint
-```
+The app is a standard Next.js application and deploys cleanly to Vercel, Netlify, or any
+Node host:
 
-### Fix linting issues
-```bash
-npm run lint:fix
-```
-
-## 🏗 Build & Deployment
-
-### Build for production
 ```bash
 npm run build
-```
-
-### Start production server
-```bash
 npm start
 ```
 
-### Docker deployment
-```bash
-# Build Docker image
-docker build -t starked-education-frontend .
+For Vercel: connect the repository, set the environment variables from
+[Environment Variables](#environment-variables), and deploy. A `Dockerfile` is included
+for container-based hosting.
 
-# Run container
-docker run -p 3000:3000 starked-education-frontend
-```
+## Contributing
 
-## 📁 Project Structure
+Contributions are welcome and appreciated! Please read our
+**[Contributing Guide](CONTRIBUTING.md)** and
+**[Code of Conduct](CODE_OF_CONDUCT.md)** before opening a pull request.
 
-```
-frontend/
-├── src/
-│   ├── app/                    # Next.js 14 App Router
-│   │   ├── profile/           # Profile management page
-│   │   ├── demo/              # Interactive demo
-│   │   └── globals.css        # Global styles
-│   ├── components/            # Reusable components
-│   │   ├── ProfileEditor.tsx   # Profile editing form
-│   │   ├── AchievementDisplay.tsx # Achievement showcase
-│   │   ├── CredentialList.tsx  # Credential management
-│   │   ├── ProfileStats.tsx    # Statistics dashboard
-│   │   ├── ErrorBoundary.tsx   # Error boundary component
-│   │   └── LoadingFallback.tsx # Loading states
-│   ├── hooks/                 # Custom React hooks
-│   │   └── useProfile.ts      # Profile data management
-│   ├── types/                 # TypeScript type definitions
-│   │   └── profile.ts         # Profile-related types
-│   ├── test/                  # Test files
-│   │   └── profile.test.tsx   # Profile component tests
-│   └── test-profile.tsx       # Test data and utilities
-├── public/                    # Static assets
-├── .github/workflows/         # CI/CD pipelines
-├── docs/                      # Documentation
-└── config files...
-```
+Quick version:
 
-## 🎯 Profile Management Dashboard
+1. Fork the repo and create a branch: `git checkout -b feat/short-description`
+2. Make your changes with tests and pass `npm run lint && npm run type-check && npm test`
+3. Commit using [Conventional Commits](https://www.conventionalcommits.org/)
+4. Open a pull request describing the change
 
-The main feature of this application is the comprehensive Profile Management Dashboard, which includes:
+## Related Repositories
 
-### **Profile Editor**
-- Edit personal information (name, email, bio, location, website)
-- Avatar upload functionality
-- Privacy settings management
-- Form validation with react-hook-form
+- 🖥️ [Eduban_frontend](https://github.com/millystellar/Eduban_frontend) — this repo
+- ⚙️ [Eduban_backend](https://github.com/millystellar/Eduban_backend) — API & services
+- 📜 [Eduban_contract](https://github.com/millystellar/Eduban_contract) — Soroban contracts
 
-### **Achievement System**
-- Multiple rarity levels (common, rare, epic, legendary)
-- Progress tracking for incomplete achievements
-- Category-based filtering and search
-- Visual progress indicators
+## License
 
-### **Credential Management**
-- Multiple credential types (certificates, badges, degrees, licenses)
-- Verification status tracking
-- Skills tagging and organization
-- External verification links
+Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
-### **Statistics Dashboard**
-- Course completion metrics
-- Study streak tracking
-- Global ranking and percentile
-- Performance scoring system
-
-## 🔧 Configuration
-
-### Environment Variables
-```bash
-NEXT_PUBLIC_API_URL=http://localhost:3001
-NEXT_PUBLIC_ENABLE_MOCK_DATA=true
-```
-
-### TypeScript Configuration
-- Strict mode enabled
-- Comprehensive type checking
-- No implicit any
-- Strict null checks
-
-### ESLint Configuration
-- Next.js recommended rules
-- TypeScript ESLint plugin
-- Custom rules for code quality
-
-### Prettier Configuration
-- Consistent code formatting
-- 2-space indentation
-- Single quotes
-- Trailing commas
-
-## 🚀 Deployment
-
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Configure environment variables
-3. Deploy automatically on push to main branch
-
-### Docker
-```bash
-# Build and run with Docker
-docker build -t starked-education-frontend .
-docker run -p 3000:3000 starked-education-frontend
-```
-
-### Static Export
-```bash
-# Build static version
-npm run build
-npm run export
-```
-
-## 🧪 Development
-
-### Code Quality
-- TypeScript strict mode
-- ESLint for code linting
-- Prettier for code formatting
-- Husky for git hooks
-- Lint-staged for pre-commit checks
-
-### Testing Strategy
-- Unit tests for components
-- Integration tests for user flows
-- Mock implementations for external dependencies
-- Coverage reporting
-
-### Performance
-- Next.js optimization
-- Image optimization
-- Code splitting
-- Lazy loading
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests and linting
-5. Submit a pull request
-
-### Development Workflow
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Run tests
-npm test
-
-# Check types
-npm run type-check
-
-# Lint code
-npm run lint
-
-# Format code
-npm run lint:fix
-```
-
-## 📄 License
-
-MIT License - see [LICENSE](../LICENSE) file for details.
-
-## 🆘 Support
-
-For support and questions:
-- Create an issue on GitHub
-- Check the documentation
-- Review the demo at `/demo`
-
-## 🔗 Related Projects
-
-- [StarkEd Backend](../backend/) - API and blockchain integration
-- [StarkEd Contracts](../contracts/) - Smart contracts
-- [StarkEd Documentation](../docs/) - Project documentation
+© 2026 Meshmulla
