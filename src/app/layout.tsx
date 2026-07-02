@@ -5,6 +5,7 @@ import './globals.css';
 import { performanceMonitor } from '@/lib/performance-monitor';
 import { GlobalShell } from '@/components/PWA/GlobalShell';
 import { CommandPalette } from '@/components/ui/command-palette';
+import { Footer } from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -50,7 +51,10 @@ export default function RootLayout({
           disableTransitionOnChange={false}
         >
           <GlobalShell />
-          {children}
+          <div className="flex flex-col min-h-screen">
+            <main className="flex-grow">{children}</main>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>
