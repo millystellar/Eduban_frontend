@@ -7,6 +7,7 @@ import nextI18NextConfig from '../../next-i18next.config';
 import { WalletProvider } from '../context/WalletContext';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { GlobalShell } from '../components/PWA/GlobalShell';
+import { Footer } from '../components/Footer';
 import { Toaster } from 'react-hot-toast';
 import '../styles/globals.css';
 
@@ -51,6 +52,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           </div>
           <GlobalShell />
           <Component {...pageProps} />
+          <Footer />
           <Toaster
             position="bottom-right"
             toastOptions={{
